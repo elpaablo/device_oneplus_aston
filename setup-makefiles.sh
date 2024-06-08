@@ -35,6 +35,21 @@ function lib_to_package_fixup_vendor_variants() {
     esac
 }
 
+function lib_to_package_fixup_odm_variants() {
+    if [ "$2" != "odm" ]; then
+        return 1
+    fi
+
+    case "$1" in
+        vendor.oplus.hardware.touch-V2-ndk)
+        echo "$1_odm"
+        ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+
 function lib_to_package_fixup() {
     lib_to_package_fixup_vendor_variants "$@" ||
     lib_to_package_fixup_odm_variants "$@" ||
