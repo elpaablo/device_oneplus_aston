@@ -23,6 +23,10 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus/aston.config
 
+# Kernel
+# BOARD_BOOTCONFIG += \
+#    androidboot.selinux=permissive
+
 # Kernel modules
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules.blocklist
@@ -43,6 +47,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
+
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Vibrator
 SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_VIBRATOR_HAL
