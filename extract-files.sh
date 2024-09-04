@@ -9,7 +9,7 @@ function blob_fixup() {
     case "${1}" in
         odm/etc/camera/CameraHWConfiguration.config)
             [ "$2" = "" ] && return 0
-            sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
+            sed -i "s/SystemCamera =  0;  0;  0;  1;  0;  1;/SystemCamera =  0;  0;  0;  0;  1;  1;/g" "${2}"
             ;;
         odm/lib64/libAlgoProcess.so)
             [ "$2" = "" ] && return 0
