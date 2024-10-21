@@ -12,16 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/aston/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := alpha_aston
+PRODUCT_NAME := lineage_aston
 PRODUCT_DEVICE := aston
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2585
 
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
-PRODUCT_SYSTEM_DEVICE := OP5D35L1
+PRODUCT_SYSTEM_DEVICE := OP5CF9L1
 
 TARGET_BOARD_PLATFORM := kalama
 
@@ -61,10 +61,5 @@ TARGET_USE_PREBUILT_KERNEL := false
 # Maintainer
 # ALPHA_BUILD_TYPE := Official
 ALPHA_MAINTAINER := elpaablo
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="CPH2585IN-user 14 TP1A.220905.001 U.R4T3.1983170-881c_62e release-keys" \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/CPH2585IN/OP5D35L1:14/TP1A.220905.001/U.R4T3.1983170-881c_62e:user/release-keys
