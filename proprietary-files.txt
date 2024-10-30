@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12R (CPH2585_14.0.0.832(EX01)).
+## are from OnePlus 12R (CPH2585_15.0.0.200(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -449,6 +449,73 @@ odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
 odm/etc/camera/libiceainr_model.dlc
 odm/etc/camera/media_profiles.xml
+odm/etc/camera/meishe_lut/ByYo3If
+odm/etc/camera/meishe_lut/Cold.cube.rgb.bin
+odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin
+odm/etc/camera/meishe_lut/DL_B_Inception.bin
+odm/etc/camera/meishe_lut/DL_C_R3_80.bin
+odm/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin
+odm/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin
+odm/etc/camera/meishe_lut/Delta400.3dl.rgb.bin
+odm/etc/camera/meishe_lut/Emerald.cube.rgb.bin
+odm/etc/camera/meishe_lut/Martin.cube.rgb.bin
+odm/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin
+odm/etc/camera/meishe_lut/Radiance.cube.rgb.bin
+odm/etc/camera/meishe_lut/Serenity.cube.rgb.bin
+odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin
+odm/etc/camera/meishe_lut/White.cube.rgb.bin
+odm/etc/camera/meishe_lut/black_gold.bin
+odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
+odm/etc/camera/meishe_lut/bright_coloured.bin
+odm/etc/camera/meishe_lut/cola.bin
+odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
+odm/etc/camera/meishe_lut/drjw1994.bin
+odm/etc/camera/meishe_lut/drjw2010.bin
+odm/etc/camera/meishe_lut/fuji-cc-high.bin
+odm/etc/camera/meishe_lut/fuji-cc-low.bin
+odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin
+odm/etc/camera/meishe_lut/fuji-nc.bin
+odm/etc/camera/meishe_lut/fuji-proNegHi.bin
+odm/etc/camera/meishe_lut/fuji.cube.rgb.bin
+odm/etc/camera/meishe_lut/fuji_cc.bin
+odm/etc/camera/meishe_lut/gourmet.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-desert.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin
+odm/etc/camera/meishe_lut/interstellar_space.bin
+odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin
+odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin
+odm/etc/camera/meishe_lut/kodak.cube.rgb.bin
+odm/etc/camera/meishe_lut/meicam.child.bin
+odm/etc/camera/meishe_lut/mono.cube.rgb.bin
+odm/etc/camera/meishe_lut/morandi.cube.rgb.bin
+odm/etc/camera/meishe_lut/natural.cube.rgb.bin
+odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin
+odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin
+odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin
+odm/etc/camera/meishe_lut/rJ5g5vPWG
+odm/etc/camera/meishe_lut/red-red.cube.rgb.bin
+odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin
+odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin
+odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin
+odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin
+odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin
+odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin
 odm/etc/camera/model/DocDetectV15.xbin
 odm/etc/camera/model_fdc.data
 odm/etc/camera/mtStereoParams.bin
@@ -767,6 +834,7 @@ odm/etc/init/init.camera_upate.rc
 odm/etc/init/init.odm.camera.provider.override.rc
 odm/etc/init/occe_create.rc
 odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
+odm/etc/vintf/manifest/manifest_oplus_camera_rfi.xml
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
@@ -933,6 +1001,7 @@ odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
+odm/lib64/libextendfile.so
 odm/lib64/libextensionlayer.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
@@ -971,11 +1040,13 @@ odm/lib64/libyuv2.so
 odm/lib64/libyuvwrapper.so
 odm/lib64/sr_models.bin
 odm/lib64/sr_ref_models.bin
+odm/lib64/vendor.oplus.hardware.camera_rfi-V1-ndk.so
+odm/lib64/vendor.oplus.hardware.camera_rfi-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.extcamera@1.0.so
-odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
 vendor/bin/hw/vendor.qti.camera.provider-service_64
 vendor/etc/init/vendor.qti.camera.provider-service_64.rc
@@ -991,6 +1062,7 @@ vendor/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so
 vendor/lib64/camera/com.qti.eeprom.gt24p64b_imx688.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
+vendor/lib64/camera/com.qti.flash.lm3644.so
 vendor/lib64/camera/com.qti.sensor.imx766.so
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
 vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
@@ -1058,7 +1130,6 @@ vendor/lib64/camera/components/com.qtistatic.stats.af.so
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
-vendor/lib64/camera/imx709.pb
 vendor/lib64/camx.device-impl.so
 vendor/lib64/camx.provider-impl.so
 vendor/lib64/com.qti.camx.chiiqutils.so
@@ -1136,7 +1207,6 @@ vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmfec.so
 vendor/lib64/libmidasserviceintf_aidl.so
 vendor/lib64/libmmcamera_bestats.so
-vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
@@ -1160,7 +1230,7 @@ vendor/lib64/libvideoml.so
 vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
-vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
@@ -1206,8 +1276,8 @@ vendor/etc/display/qdcm_calib_data_AA551_P_3_A0004_dsc_cmd_mode_panel.json
 vendor/etc/ltm_config_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
 
 # eUICC - CPH2611_14.0.0.701(EX01)
-my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml|f2c044ab8db11f299b106375dbd06feef4ff84e0
-my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|b65b43d4b2e892c5107d9d248b1d6d640fa0f04c
+# my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml|f2c044ab8db11f299b106375dbd06feef4ff84e0
+# my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|b65b43d4b2e892c5107d9d248b1d6d640fa0f04c
 
 # IR
 odm/bin/hw/android.hardware.ir-service
@@ -1238,7 +1308,9 @@ odm/etc/sensor/config/kailua_mtp_bmp380.json
 odm/etc/sensor/config/kailua_mtp_cct_rear.json
 odm/etc/sensor/config/kailua_mtp_freefall.json
 odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
+odm/etc/sensor/config/kailua_mtp_oplus_flight_detect.json
 odm/etc/sensor/config/kailua_mtp_oplus_lay.json
+odm/etc/sensor/config/kailua_mtp_pocket.json
 odm/etc/sensor/config/kailua_mtp_smart_prox.json
 odm/etc/sensor/config/lux_aod.json
 odm/etc/sensor/sensor_config.json
