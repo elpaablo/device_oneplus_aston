@@ -12,13 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/aston/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := alpha_aston
+PRODUCT_NAME := yaap_aston
 PRODUCT_DEVICE := aston
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2585
+
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := kalama
+TARGET_KERNEL_ADDITIONAL_FLAGS += TARGET_BOARD_PLATFORM=$(TARGET_BOARD_PLATFORM)
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
@@ -38,34 +43,8 @@ TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Build config
-
-# TARGET_BUILD_PACKAGE options:
-# 1 - vanilla (default)
-# 2 - microg
-# 3 - gapps
-TARGET_BUILD_PACKAGE := 3
-
-ifeq ($(TARGET_BUILD_PACKAGE),3)
-# (valid only for GAPPS builds)
-TARGET_INCLUDE_GOOGLE_COMMS := true
-TARGET_INCLUDE_PIXEL_LAUNCHER := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-endif
-
 # Debugging
 TARGET_INCLUDE_MATLOG := false
 WITH_ADB_INSECURE := false
-TARGET_BUILD_PERMISSIVE := false
-SELINUX_IGNORE_NEVERALLOWS := false
-
-# Extras
-TARGET_INCLUDE_SIMPLE_TUNE := true
-
-# Maintainer
-ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := elpaablo
+TARGET_BUILD_PERMISSIVE := true
+SELINUX_IGNORE_NEVERALLOWS := true
